@@ -7,6 +7,8 @@
     const n3 = document.getElementById("mob-nav-links3");
     const n4 = document.getElementById("mob-nav-links4");
     const n5 = document.getElementById("mob-nav-links5");
+    const n6 = document.getElementById("mob-nav-links6");
+
 
     // mobile navigation state
     let isAnimate = false;
@@ -29,6 +31,7 @@
     n3.addEventListener("click", toggle);
     n4.addEventListener("click", toggle);
     n5.addEventListener("click", toggle);
+    n6.addEventListener("click", toggle);
   })();
   
   const done = document.getElementById("done");
